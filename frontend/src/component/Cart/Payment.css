@@ -1,0 +1,22 @@
+.paymentContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.payBtn{
+    background-color: tomato;
+    border-radius: 20px;
+    padding: 1.2vmax 4vmax;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 1vmax 4vmax;
+    width: 20%;
+    font: 300 0.8vmax "Roboto";   
+    margin: 10vmax 10vmax 7vmax;
+    transition: all 0.5s;
+}
+
+.payBtn:hover{
+    background-color: rgb(188, 69, 48);
+}
